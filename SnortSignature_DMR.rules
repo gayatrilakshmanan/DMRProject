@@ -1,0 +1,2 @@
+alert udp any 42870 -> 10.8.1.2 54000 (msg:"UDP test";content:"|00 00 7a|";offset:11;content:"|00 05 39|";offset:8;content:"|69|";offset:14;sid:1000983;)
+
